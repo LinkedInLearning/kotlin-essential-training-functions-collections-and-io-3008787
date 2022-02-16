@@ -1,4 +1,8 @@
 
+private fun printGreeting() = println("Hello Kotlin")
+
 fun main() {
-    println("Hello World")
+    fun getGreeting() = "Hello Kotlin"
+
+    println(getGreeting())
 }
