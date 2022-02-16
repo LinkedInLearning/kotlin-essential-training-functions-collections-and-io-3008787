@@ -1,15 +1,11 @@
 
 
-fun printCalculatedValue(value1: Int, value2: Int, calculator: (Int, Int) -> Int) {
-    println("The value is: ${calculator(value1, value2)}")
-}
+// write a function that satisfies the following requirements
+
+// function takes 2 strings for first and last name
+// function takes a formatting function parameter
+// function should print the result of the passed format function
 
 fun main() {
-    printCalculatedValue(2, 2) { value1, value2 ->
-        value1 + value2
-    }
 
-    printCalculatedValue(2, 2, { value1, value2 ->
-        value1 - value2
-    })
 }
