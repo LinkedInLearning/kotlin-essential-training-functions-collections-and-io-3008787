@@ -1,13 +1,10 @@
-import java.io.File
-import kotlin.io.path.writeLines
+
+// Prompt the user to enter the name of the test scores file
+// Read each line from the file
+// Sort the scores from highest to lowest
+// Pick the 3 highest scores
+// Write those 3 userId/score pairs to a new file sorted.txt
 
 fun main() {
-    val scoresFile = File("scores.txt")
 
-    scoresFile.forEachLine { line -> println(line) }
-
-    val sortedLines = scoresFile.readLines().sorted()
-
-    val outputFile = File("sorted-scores.txt").toPath()
-    outputFile.writeLines(sortedLines)
 }
