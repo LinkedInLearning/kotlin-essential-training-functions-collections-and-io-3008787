@@ -1,7 +1,12 @@
-# Kotlin Essential Training
-This is the repository for the LinkedIn Learning course `Kotlin Essential Training`. The full course is available from [LinkedIn Learning][lil-course-url].
+# Kotlin Essential Training: Functions, Collections, and I/O
+This is the repository for the LinkedIn Learning course Kotlin Essential Training: Functions, Collections, and I/O. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
+![Kotlin Essential Training: Functions, Collections, and I/O][lil-thumbnail-url] 
+
+If you’re looking to get up and running with Kotlin, the powerful programming language from JetBrains, this course gives you the tools you need to start writing command-line programs in a matter of hours. Join instructor Nate Ebel, the author of Mastering Kotlin, as he shows you the ins and out of Kotlin and walks you through its unique selling points for developers—from null safety and concise syntax to Java compatibility, to full support by Google for Android development.
+
+Get a comprehensive overview of writing code in Kotlin, including the basics of data types, variables, statements, expressions, functions, and classes. Learn how to use the essential features of this powerful, interoperable language as well as effectively debug your code. Along the way, Nate gives you expert pointers on how to write safe and efficient multithreaded code using Kotlin coroutines to manage multiple tasks at the same time.
+
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
@@ -20,15 +25,16 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+
+### Instructor
+
+Nate Ebel 
+                            
 
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+                            
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/nate-ebel).
 
+[lil-course-url]: https://www.linkedin.com/learning/kotlin-essential-training-functions-collections-and-i-o
+[lil-thumbnail-url]: https://cdn.lynda.com/course/3008787/3008787-1650999441940-16x9.jpg
